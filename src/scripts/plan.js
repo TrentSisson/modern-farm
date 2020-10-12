@@ -2,7 +2,8 @@ const types = ["Soybean", "Corn", "Asparagus", "Wheat", "Potato", "Sunflower"]
 
 export const createPlan = () => {
     const plan = []
-
+    
+    
     for (let index = 0; index < 3; index++) {
         const row = []
         for (let j = 0; j < 6; j++) {
@@ -10,8 +11,8 @@ export const createPlan = () => {
         }
         plan.push(row)
     }
-
     return plan
+    
 }
 
 
